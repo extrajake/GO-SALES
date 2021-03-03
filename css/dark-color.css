@@ -40,9 +40,12 @@ p,
   color: #ffffff;
 }
 
+.original-blue {
+  background-color: #0088ff;
+}
 .banner-text > a:hover,
 .about-list > a:hover {
-  background-color: #0088ff;
+  background-color: #14a0c7;
   color: #fff;
   border-color: transparent;
 }
@@ -52,7 +55,7 @@ p,
 }
 
 .feature-icon > span {
-  background-color: #0088ff;
+  background-color: #14a0c7;
 }
 .features:before {
   background-color: #333333;
@@ -81,13 +84,13 @@ a:hover {
   background-image: url(../images/comm2.png);
 }
 .testimonial-nav:after {
-  background-color: #0088ff;
+  background-color: #14a0c7;
 }
 .bg6 {
   background-image: url(../images/bg6_2.png);
 }
 .wait-sec {
-  background-color: #0088ff;
+  background-color: #14a0c7;
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.35);
 }
 .footer-bg {
@@ -124,26 +127,26 @@ a:hover {
   background-color: #484848;
 }
 header.sticky {
-  background-color: #0088ff;
+  background-color: #14a0c7;
 }
 
 .blog-info h3 a:hover {
-  color: #0088ff;
+  color: #14a0c7;
 }
 .double-bounce1,
 .double-bounce2 {
-  background-color: #0088ff;
+  background-color: #14a0c7;
 }
 
 .mobile-menu ul li a:hover,
 .mobile-menu ul li.active a,
 .up-social-links ul li a:hover,
 .mb-social-links li a:hover {
-  color: #0088ff;
+  color: #14a0c7;
 }
 nav ul li a:hover,
 nav ul li.active a {
-  color: #d6e355;
+  color: #39b54a;
 }
 
 .main-section {
