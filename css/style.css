@@ -830,12 +830,12 @@ nav ul li a {
   text-align: center;
 }
 .price-head:hover {
-  background-color: #7161c8;
+  background-color: #e41767;
   border-radius: 50px;
 }
 .price-head-email {
   margin-top: 5%;
-  background-color: #7161c8;
+  background-color: #e41767;
   float: left;
   width: 100%;
   text-align: center;
