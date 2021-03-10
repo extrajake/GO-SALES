@@ -71,7 +71,7 @@ a:hover {
   color: #fff;
 }
 .bg4 {
-  background-image: url(../images/bg4_2.png);
+  background-image: url(../images/bg4.png);
 }
 
 .bg5 {
@@ -150,5 +150,13 @@ nav ul li.active a {
 }
 
 .main-section {
-  background-image: url(../images/main-sec-bg2.png);
+  background-image: url(../images/bg-5.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.parallax {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
 }

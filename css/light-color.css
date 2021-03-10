@@ -1,7 +1,5 @@
-
-
 body {
-    background-color: #fff;
+  background-color: #fff;
 }
 nav ul li a,
 .feature-icon > span i,
@@ -27,7 +25,10 @@ p,
 .widget-title,
 .widget > p,
 .widget-contact ul li span,
-.mobile-menu-btn a,
+.mobile-menu-btn a {
+  color: #333333;
+}
+
 .banner-text h3,
 .banner-text h2,
 .banner-text p,
@@ -36,94 +37,121 @@ p,
 .form-group,
 .js-ajax-form label,
 .btn-sbmt {
-	color: #333333;
+  color: #fff;
+}
+
+.original-blue {
+  background-color: #0088ff;
+}
+.banner-text > a:hover,
+.about-list > a:hover {
+  background-color: #14a0c7;
+  color: #fff;
+  border-color: transparent;
 }
 .lyr4,
 .about-list > a,
 .price > a,
 .btn-sbmt {
-	border-color: #333333;
+  border-color: #333333;
 }
-.banner-text > a:hover,
-.about-list > a:hover {
-	background-color: #897ffd;
-	color: #fff;
-	border-color: transparent;
-}
-.feature-icon > span{
-	background-color: #b6e5e6;
+
+.feature-icon > span {
+  background-color: #b6e5e6;
 }
 .features:before {
-	background-color: rgba(255,255,255,0.90);
-	box-shadow: 0 0 40px rgba(196,204,245,0.35);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 40px rgba(196, 204, 245, 0.35);
 }
 .bg3 {
-	background-image: url(../images/bg3.png);
+  background-image: url(../images/bg3_2.png);
 }
 .about-num:before {
-	background-image: url(../images/poly.png);
+  background-image: url(../images/poly_2.png);
 }
 .bg4 {
-	background-image: url(../images/bg4.png);
+  background-image: url(../images/bg4.png);
 }
 .service-details > span {
-	color: #b6e5e6;
+  color: #b6e5e6;
 }
 .price:hover {
-	background-image: url(../images/price-bg.png);
+  background-image: url(../images/price-bg.png);
 }
 .user-comment:before {
-	background-image: url(../images/comm.png);
+  background-image: url(../images/comm.png);
 }
 .testimonial-nav:after {
-	background-color: #7fdcda;
+  background-color: #7fdcda;
 }
 .bg6 {
-	background-image: url(../images/bg6.png);
+  background-image: url(../images/bg6_2.png);
 }
 .bg5 {
-	background-image: url(../images/bg5.png);
+  background-image: url(../images/bg5.png);
 }
 .wait-sec {
-	background-color: #b6e5e6;
-	box-shadow: 0 0 45px rgba(196,204,245,0.35);
+  background-color: #b6e5e6;
+  box-shadow: 0 0 45px rgba(196, 204, 245, 0.35);
 }
 .footer-bg {
-	background-image: url(../images/footer-bg.png);
+  background-image: url(../images/footer-bg.png);
 }
 .contact-form form input,
 .contact-form form textarea {
-	background-color: rgba(255,255,255,0.80);
-	box-shadow: 2px 2px 20px rgba(196,204,245,0.35);
-	color: #333333;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 2px 2px 20px rgba(196, 204, 245, 0.35);
+  color: #333333;
 }
 .testimonial-nav:before {
-	background-color: #3c3c44;
+  background-color: #3c3c44;
 }
 
 header.sticky {
-	background-color: rgba(255,255,255,0.80);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .blog-info h3 a:hover {
-	color: #897ffd;
+  color: #897ffd;
 }
 
 .double-bounce1,
 .double-bounce2 {
-	background-color: #897ffd;
+  background-color: #897ffd;
 }
 nav ul li.active a {
-	color: #897ffd;
+  color: #897ffd;
 }
 .mobile-menu ul li a:hover,
 .mobile-menu ul li.active a,
 .up-social-links ul li a:hover,
 nav ul li a:hover,
 .mb-social-links li a:hover {
-	color: #897ffd;
+  color: #897ffd;
 }
 
 .main-section {
-	background-image: url(../images/main-sec-bg.png);
+  background-image: url(../images/bg-5.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.experience-section {
+  margin: 5% 0 0 0;
+}
+.experience-section h2 {
+  color: #3c3c44;
+}
+.section-2 {
+  height: 700px;
+  background-image: url(../images/hike-bg7.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.section-2-container {
+  max-width: 1600px;
+}
+.about-list-column {
+  position: absolute;
+  text-align: center;
 }

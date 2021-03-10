@@ -213,6 +213,13 @@ p {
   position: absolute;
 } */
 
+.parallax {
+  background: url ("images/bg5_2.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
 /* ================ CROSS BROWSER COMPATABILITY ============ */
 
 .banner-text > a,
@@ -262,7 +269,8 @@ nav ul li a,
   padding: 100px 0 0 0;
 }
 .about {
-  padding: 270px 0 460px 0;
+  padding: 270px 0 200px 0;
+  height: 700px;
 }
 .testimonial {
   padding: 100px 0 50px 0;
@@ -302,10 +310,10 @@ nav ul li a,
 .features:before {
   content: "";
   position: absolute;
-  bottom: -35px;
+  top: 70px;
   left: 0;
-  width: 50%;
-  height: 310px;
+  width: 75%;
+  height: 400px;
   -webkit-border-radius: 0 50px 50px 0;
   -moz-border-radius: 0 50px 50px 0;
   -ms-border-radius: 0 50px 50px 0;
@@ -364,14 +372,33 @@ a:hover {
 /* =================== main-section-data ==================  */
 
 .main-section {
+  height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 125px 0 310px 0;
+  margin-top: 100px;
 }
 .main-section-data {
   float: left;
   width: 100%;
 }
+.blob {
+  position: absolute;
+  max-height: 800px;
+  margin-left: -65%;
+  margin-top: -5%;
+}
+.blob-2 {
+  position: absolute;
+  top: -15%;
+  left: -10%;
+}
+.blob-3 {
+  position: absolute;
+  margin-left: -65%;
+  margin-top: -15%;
+  height: 1000px;
+}
+
 .banner-text {
   float: left;
   width: 100%;
@@ -383,17 +410,20 @@ a:hover {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 7px;
+  color: #fff;
 }
 .banner-text h2 {
   font-size: 66px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
+  color: #fff;
 }
 .banner-text p {
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 70px;
+  color: #fff;
 }
 .banner-text > a {
   font-size: 24px;
@@ -432,7 +462,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 40px 0;
+  padding: 28px 0;
   z-index: 999999;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -505,16 +535,22 @@ nav ul li a {
 
 .evolve {
   color: white;
+  top: 0;
   text-align: center;
   font-size: 66px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
+  padding-left: 100px;
 }
 
 .evolve-section {
-  height: 80vh;
+  height: 1000px;
   margin-top: -20%;
+}
+
+.evolve h2 {
+  color: #333333;
 }
 
 .evolve p {
@@ -524,6 +560,9 @@ nav ul li a {
 }
 
 /* ================ features-sec ============== */
+.features {
+  margin: 0 0 5% 0;
+}
 
 .features-sec {
   float: left;
@@ -533,8 +572,8 @@ nav ul li a {
 .features-sec:before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 50%;
+  top: -30%;
+  left: 80%;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -589,6 +628,9 @@ nav ul li a {
 }
 
 /* ============== services-sec ============== */
+.challenge-yourself-three {
+  float: right;
+}
 
 .about-sec {
   float: left;
@@ -657,12 +699,17 @@ nav ul li a {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 15px;
+  color: #fff !important;
+}
+.abt-info p {
+  color: #fff !important;
 }
 .abt-info {
   float: left;
   width: 80%;
   position: relative;
   z-index: 99;
+  color: #fff;
 }
 .about-list > a {
   float: left;
@@ -916,7 +963,6 @@ nav ul li a {
 }
 .email-input {
   border: 2px solid #fff;
-  color: ;
   display: block;
   width: 100%;
   height: 40px;
