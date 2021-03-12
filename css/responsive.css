@@ -91,6 +91,9 @@
   .banner-text p br {
     display: none;
   }
+  .services {
+    margin-top: 10%;
+  }
 }
 
 @media (max-width: 991px) {

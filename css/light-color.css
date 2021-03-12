@@ -33,11 +33,13 @@ p,
 .banner-text h2,
 .banner-text p,
 .banner-text > a,
-.up-social-links ul li a,
 .form-group,
 .js-ajax-form label,
 .btn-sbmt {
   color: #fff;
+}
+.up-social-links ul li a {
+  color: #14a0c7;
 }
 
 .original-blue {
@@ -57,14 +59,14 @@ p,
 }
 
 .feature-icon > span {
-  background-color: #b6e5e6;
+  background-color: #14a0c7;
 }
 .features:before {
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 40px rgba(196, 204, 245, 0.35);
 }
 .bg3 {
-  background-image: url(../images/bg3_2.png);
+  background-image: url(../images/bg3_5.png);
 }
 .about-num:before {
   background-image: url(../images/poly_2.png);
@@ -91,8 +93,12 @@ p,
   background-image: url(../images/bg5.png);
 }
 .wait-sec {
-  background-color: #b6e5e6;
+  background-image: url(../images/hike-coast.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   box-shadow: 0 0 45px rgba(196, 204, 245, 0.35);
+  border: 10px solid #fff;
 }
 .footer-bg {
   background-image: url(../images/footer-bg.png);
@@ -108,7 +114,7 @@ p,
 }
 
 header.sticky {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #14a0c7;
 }
 
 .blog-info h3 a:hover {
@@ -127,7 +133,7 @@ nav ul li.active a {
 .up-social-links ul li a:hover,
 nav ul li a:hover,
 .mb-social-links li a:hover {
-  color: #897ffd;
+  color: #39b54a;
 }
 
 .main-section {
