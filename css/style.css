@@ -1432,13 +1432,14 @@ nav ul li a {
   float: left;
   width: 100%;
   text-align: center;
-  -webkit-border-radius: 40px;
+  /* -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
-  -o-border-radius: 40px;
-  border-radius: 40px;
+  -o-border-radius: 40px; */
+  /* border-radius: 40px; */
   padding: 180px 0;
 }
+
 .wait-sec h3 {
   color: #ffffff;
   font-size: 60px;
@@ -1526,20 +1527,22 @@ nav ul li a {
 /* ===================Careers Page====================== */
 
 .careers {
-  background-image: url(../images/careers-hero-2.png);
+  background-image: url(../images/careers-hero-3.png);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  height: 80vh;
+  background-position: 50% 10%;
+  height: 100vh;
 }
 
 .careers-t-h-p {
   margin-top: 10%;
-  padding: 10%;
+  margin-left: 2%;
+  padding: 5%;
   color: #fff;
   background-image: url(../images/careers-blob-3.svg);
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: 50% 40%;
-  background-size: 1300px;
+  background-position: 50% 42%;
+  background-size: 150%;
 }
 .careers-t-h-p .h1 .h2 .h3 .h4 .h5 .h6 .p {
   color: #fff;
@@ -1549,16 +1552,47 @@ nav ul li a {
 }
 
 .careers-row {
-  margin-top: 10%;
 }
 
 .careers-t {
   font-family: "Work-sans", sans-serif;
-  font-weight: 700;
+  font-weight: bold;
+  font-size: 6.7rem;
   text-transform: uppercase;
   color: #fff;
 }
 
+.careers-d {
+  font-family: "Work-sans", sans-serif;
+  font-weight: bold;
+  font-size: 6.7rem;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.careers-run-img {
+  margin-top: 10%;
+  background-size: contain;
+}
+
+.careers-h1-h3 {
+  padding: 0 2.5%;
+}
+
+.in-it-for-you {
+  margin: 10% 0 10% 0;
+  color: #333;
+}
+.in-it-for-you-row {
+  display: flex;
+  flex-direction: row;
+}
+.h3-1 {
+  margin-top: 10%;
+}
+.opportunity {
+  margin: 10% 0;
+}
 .wh {
   color: #fff !important;
 }

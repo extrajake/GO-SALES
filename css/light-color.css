@@ -101,7 +101,22 @@ p,
   background-repeat: no-repeat;
   background-size: 100%;
   box-shadow: 0 0 45px rgba(196, 204, 245, 0.35);
+}
+.apply-box-opportunity {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: 0 0 45px rgba(196, 204, 245, 0.35);
   border: 10px solid;
+  float: left;
+  width: 100%;
+  text-align: center;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  padding: 180px 0;
 }
 .footer-bg {
   background-image: url(../images/footer-bg.png);
