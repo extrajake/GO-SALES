@@ -1,7 +1,10 @@
 body {
   background-color: #fff;
 }
-nav ul li a,
+nav ul li a {
+  color: #fff;
+}
+
 .feature-icon > span i,
 .feature-info h3,
 p,
@@ -39,7 +42,7 @@ p,
   color: #fff;
 }
 .up-social-links ul li a {
-  color: #14a0c7;
+  color: #fff;
 }
 
 .original-blue {
@@ -98,7 +101,7 @@ p,
   background-repeat: no-repeat;
   background-size: 100%;
   box-shadow: 0 0 45px rgba(196, 204, 245, 0.35);
-  border: 10px solid #fff;
+  border: 10px solid;
 }
 .footer-bg {
   background-image: url(../images/footer-bg.png);
@@ -126,14 +129,14 @@ header.sticky {
   background-color: #897ffd;
 }
 nav ul li.active a {
-  color: #897ffd;
+  color: #333;
 }
 .mobile-menu ul li a:hover,
 .mobile-menu ul li.active a,
 .up-social-links ul li a:hover,
 nav ul li a:hover,
 .mb-social-links li a:hover {
-  color: #39b54a;
+  color: #333;
 }
 
 .main-section {
