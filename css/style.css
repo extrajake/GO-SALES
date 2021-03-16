@@ -308,6 +308,9 @@ nav ul li a,
   line-height: 6rem; */
   z-index: 3;
 }
+.price-vector {
+  flex-direction: row;
+}
 
 .grey-block {
   background-color: #333;
