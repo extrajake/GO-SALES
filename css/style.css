@@ -280,6 +280,11 @@ nav ul li a,
   background-color: rgba(255, 255, 255, 0.75);
   z-index: 999999999999;
 }
+
+.background-arrow {
+  position: absolute;
+  max-height: 200px;
+}
 .features {
   padding: 100px 0;
 }
@@ -650,6 +655,10 @@ nav ul li a {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
+  background-image: url(../images/arrow.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
 }
 
 .evolve {
@@ -1529,7 +1538,7 @@ nav ul li a {
 .careers {
   background-image: url(../images/careers-hero-3.png);
   background-repeat: no-repeat;
-  background-position: 50% 10%;
+  background-position: 50% 0%;
   height: 100vh;
 }
 
@@ -1558,6 +1567,7 @@ nav ul li a {
   font-family: "Work-sans", sans-serif;
   font-weight: bold;
   font-size: 6.7rem;
+  line-height: 7rem;
   text-transform: uppercase;
   color: #fff;
 }
@@ -1566,8 +1576,20 @@ nav ul li a {
   font-family: "Work-sans", sans-serif;
   font-weight: bold;
   font-size: 6.7rem;
+  line-height: 7rem;
   text-transform: uppercase;
   color: #333;
+}
+
+.careers-h {
+  /* background-image: url(../images/vector-shape.png);
+  background-position: 70% 50%; */
+}
+
+.careers-vector {
+  position: absolute;
+  height: 50vh;
+  margin-left: 50%;
 }
 
 .careers-run-img {
@@ -1595,6 +1617,58 @@ nav ul li a {
 }
 .wh {
   color: #fff !important;
+}
+
+/***********************ABOUT PAGE**********************/
+
+.about-hero {
+  height: 50vh;
+  margin-top: 20%;
+  text-align: center;
+}
+.about-hero-title h1 {
+  font-family: "Work-sans", sans-serif;
+  font-weight: bold;
+  font-size: 6.7rem;
+  line-height: 7rem;
+  text-transform: uppercase;
+  color: #333;
+}
+.about-hero-arrow {
+  position: absolute;
+  height: 800px;
+  margin-top: -20%;
+  margin-left: 25%;
+}
+.partners-hero {
+  margin-top: -10%;
+  height: 50vh;
+}
+.partners-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+.partners-t-h {
+  margin-top: 8%;
+  max-width: 30%;
+  /* background-image: url(../images/partners-blob.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+  width: 80%; */
+}
+.partners-t-h h1 {
+  line-height: 5rem;
+}
+.tb-s {
+  font-family: "Work-sans", sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+  line-height: 7rem;
+  text-transform: uppercase;
+  color: #333;
 }
 
 /* ================== FOOTER =============== */
