@@ -300,8 +300,8 @@ nav ul li a,
   margin-top: -300px;
 }
 .hero-logo {
-  max-height: 100px;
-  margin-left: -13%;
+  max-height: 85px;
+  margin-left: -7%;
 }
 
 .pricing {
@@ -548,6 +548,7 @@ a:hover {
   color: #fff;
 }
 .banner-text p {
+  max-width: 73%;
   float: left;
   font-size: 18px;
   line-height: 24px;
@@ -1582,11 +1583,12 @@ nav ul li a {
 }
 
 .careers-t-h-p {
-  margin-top: 10%;
-  margin-left: 2%;
-  padding: 5%;
+  margin-top: 15%;
+  margin-left: 5%;
+  padding: 4%;
   color: #fff;
-  background-image: url(../images/careers-blob-3.svg);
+  /* background-image: url(../images/careers-blob-3.svg); */
+  background-color: rgba(51, 51, 51, 0.7);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 42%;
