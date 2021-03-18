@@ -72,7 +72,7 @@ p,
   background-image: url(../images/bg3_5.png);
 }
 .about-num:before {
-  background-image: url(../images/poly_2.png);
+  /* background-image: url(../images/poly_2.png); */
 }
 .bg4 {
   background-image: url(../images/bg4.png);
@@ -168,7 +168,7 @@ nav ul li a:hover,
 }
 .section-2 {
   height: 700px;
-  background-image: url(../images/hike-bg7.png);
+  /* background-image: url(../images/hike-bg7.png); */
   background-position: center center;
   background-repeat: no-repeat;
 }

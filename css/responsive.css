@@ -446,4 +446,12 @@
   .blob-3 {
     display: none;
   }
+  .mobile-visable {
+  }
+  .hike-img {
+    display: none !important;
+  }
+  .hike-img-wrap {
+    display: none;
+  }
 }

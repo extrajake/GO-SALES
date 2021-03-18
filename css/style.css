@@ -299,6 +299,11 @@ nav ul li a,
   padding: 100px 0 50px 0;
   margin-top: -300px;
 }
+.hero-logo {
+  max-height: 100px;
+  margin-left: -13%;
+}
+
 .pricing {
   padding: 260px 0 280px 0;
 }
@@ -508,6 +513,7 @@ a:hover {
   max-height: 800px;
   margin-left: -65%;
   margin-top: -5%;
+  opacity: 0.7;
 }
 .blob-2 {
   position: absolute;
@@ -542,6 +548,7 @@ a:hover {
   color: #fff;
 }
 .banner-text p {
+  float: left;
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 70px;
@@ -767,6 +774,30 @@ nav ul li a {
 }
 
 /* ============== services-sec ============== */
+
+.hike-img {
+  margin-left: 50%;
+  max-height: 850px;
+}
+
+@media (max-width: 769px) {
+  .hike-img {
+    display: none;
+  }
+  .about-list-column {
+    margin-top: 10%;
+  }
+  .features-sec-row {
+    margin-bottom: 10%;
+  }
+  .mobile-visable {
+    display: block;
+  }
+  .mobile-visable img {
+    display: block;
+  }
+}
+
 .challenge-yourself-three {
   float: right;
 }
@@ -832,7 +863,9 @@ nav ul li a {
   font-size: 60px;
   font-weight: 900;
 }
+
 .abt-info h3 {
+  font-size: 5rem !important;
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -843,6 +876,7 @@ nav ul li a {
 }
 .abt-info {
   float: left;
+  text-align: left;
   width: 80%;
   position: relative;
   z-index: 99;
@@ -863,6 +897,11 @@ nav ul li a {
   -o-border-radius: 20px;
   border-radius: 20px;
   line-height: 70px;
+}
+
+.about-list-column {
+  background-color: #333333;
+  margin-top: -5%;
 }
 
 /* ================== services-sec ================ */
