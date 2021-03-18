@@ -161,7 +161,7 @@ ul {
   list-style: none;
 }
 .tb {
-  font-size: 8rem;
+  font-size: 8rem !important;
 }
 
 a:hover {
