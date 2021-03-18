@@ -431,4 +431,19 @@
   .banner-text p {
     padding: 0 20px;
   }
+  .blob {
+    display: none;
+  }
+  .tb {
+    font-size: 3rem;
+  }
+  .body {
+    overflow-x: hidden;
+  }
+  .price-vector img {
+    display: none;
+  }
+  .blob-3 {
+    display: none;
+  }
 }

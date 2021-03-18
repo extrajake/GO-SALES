@@ -161,7 +161,7 @@ ul {
   list-style: none;
 }
 .tb {
-  font-size: 8rem !important;
+  font-size: 8rem;
 }
 
 a:hover {
@@ -1595,10 +1595,11 @@ nav ul li a {
 .careers-run-img {
   margin-top: 10%;
   background-size: contain;
+  max-height: 1000px;
 }
 
 .careers-h1-h3 {
-  padding: 0 2.5%;
+  padding: 5%;
 }
 
 .in-it-for-you {
@@ -1608,6 +1609,7 @@ nav ul li a {
 .in-it-for-you-row {
   display: flex;
   flex-direction: row;
+  max-height: 100%;
 }
 .h3-1 {
   margin-top: 10%;
