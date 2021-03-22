@@ -778,41 +778,29 @@ nav ul li a {
   margin-bottom: 15px;
 }
 
+/*********************GO CHALLENGE YOURSELF*************************/
+.section-3-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 /* ============== services-sec ============== */
 
+.section-2-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .hike-img {
-  margin-left: 50%;
-  max-height: 850px;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-left: 10%;
 }
 
-@media (max-width: 1216px) {
-  .price-vector {
-    display: none;
-  }
-  .price-vector img {
-    display: none;
-  }
-}
-@media (max-width: 769px) {
-  .hero-conent {
-    text-align: center;
-  }
-
-  .hike-img {
-    display: none;
-  }
-  .about-list-column {
-    margin-top: 10%;
-  }
-  .features-sec-row {
-    margin-bottom: 10%;
-  }
-  .mobile-visable {
-    display: block;
-  }
-  .mobile-visable img {
-    display: block;
-  }
+.mobile-visable {
+  display: none;
 }
 
 .challenge-yourself-three {
@@ -882,8 +870,7 @@ nav ul li a {
 }
 
 .abt-info h3 {
-  font-size: 5rem !important;
-  font-size: 48px;
+  font-size: 5rem;
   font-weight: 700;
   margin-bottom: 15px;
   color: #fff !important;
@@ -2060,6 +2047,77 @@ footer {
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
 }
+@media (max-width: 1216px) {
+  .price-vector {
+    display: none;
+  }
+  .price-vector img {
+    display: none;
+  }
+  .mobile-visable {
+    display: block;
+    max-width: 100%;
+    margin-top: 10%;
+  }
+  .hike-img {
+    display: none;
+  }
+  .about-list-column {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 769px) {
+  .hero-conent {
+    text-align: center;
+  }
+
+  .tb {
+    font-size: 3rem !important;
+  }
+  .abt-info h3 {
+    font-size: 3rem !important;
+  }
+  .about-list-column {
+    margin-top: 10%;
+  }
+  .features-sec-row {
+    margin-bottom: 10%;
+  }
+  .mobile-visable img {
+    display: block;
+  }
+  .beyond-limits h1 {
+    font-size: 5rem;
+    line-height: 4rem;
+    margin-left: 0;
+  }
+  .t-evolve {
+    text-align: center;
+  }
+  .evolve p {
+    text-align: center;
+  }
+
+  .price-head {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    /* padding: 50px; */
+    text-align: left;
+  }
+  .stories-img {
+    position: relative;
+    max-width: 100%;
+    z-index: 5;
+    max-height: 400px;
+    margin-top: 40%;
+    margin-left: 0%;
+  }
+  .service-details i {
+    display: none;
+  }
+}
+
 @-webkit-keyframes sk-bounce {
   0%,
   100% {
