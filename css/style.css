@@ -302,6 +302,10 @@ nav ul li a,
 .hero-logo {
   max-height: 85px;
   margin-left: -7%;
+  max-width: 65%;
+
+  margin: auto;
+  margin-bottom: 5%;
 }
 
 .pricing {
@@ -781,7 +785,19 @@ nav ul li a {
   max-height: 850px;
 }
 
+@media (max-width: 1216px) {
+  .price-vector {
+    display: none;
+  }
+  .price-vector img {
+    display: none;
+  }
+}
 @media (max-width: 769px) {
+  .hero-conent {
+    text-align: center;
+  }
+
   .hike-img {
     display: none;
   }
@@ -1576,7 +1592,7 @@ nav ul li a {
 /* ===================Careers Page====================== */
 
 .careers {
-  background-image: url(../images/careers-hero-3.png);
+  background-image: url(../images/careers-hero-3.jpg);
   background-repeat: no-repeat;
   background-position: 50% 0%;
   height: 100vh;
@@ -1586,6 +1602,7 @@ nav ul li a {
   margin-top: 15%;
   margin-left: 5%;
   padding: 4%;
+
   color: #fff;
   /* background-image: url(../images/careers-blob-3.svg); */
   background-color: rgba(51, 51, 51, 0.7);
@@ -1593,10 +1610,15 @@ nav ul li a {
   background-repeat: no-repeat;
   background-position: 50% 42%;
   background-size: 150%;
+  display: flex;
+  flex-direction: column;
 }
 .careers-t-h-p .h1 .h2 .h3 .h4 .h5 .h6 .p {
   color: #fff;
   padding-top: 5%;
+}
+.careers h1 {
+  font-size: 7rem;
 }
 .careers-container {
 }
