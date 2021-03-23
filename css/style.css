@@ -1785,7 +1785,8 @@ footer {
   float: left;
   width: 100%;
 }
-.contact-form form input {
+.contact-form form input[type="text"],
+input[type="tel"] {
   height: 55px;
   padding: 0 30px;
 }
@@ -1832,6 +1833,72 @@ footer {
   position: relative;
   top: -15px;
   font-size: 16px;
+}
+#customFile {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  border: 0;
+}
+.custom-file input {
+  float: left;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  height: 60px;
+  padding: 0 70px;
+  border: 0;
+  letter-spacing: 1px;
+  border: 2px solid;
+  background-color: transparent;
+}
+
+input#file.inputfile.col-5 {
+  padding: 2.5%;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.resume-tag {
+}
+.upload-tag {
+  margin-left: 100%;
+  width: 100%;
+  color: #fff;
+}
+.cover-letter {
+  margin-left: 46%;
+  color: #fff;
+}
+
+.resume {
+  flex-direction: row;
+  max-width: 91%;
+  margin: 0 auto;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.input-unit {
+  flex-direction: column;
+  width: 100%;
 }
 
 /* =============== bottom-footer ============ */
@@ -2047,6 +2114,35 @@ footer {
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
 }
+
+/***********************APPLY*****************************/
+.form-logo {
+  height: 300px;
+  margin-left: 23%;
+}
+.apply {
+  /* background-image: url(../images/color-bg.jpg); */
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 80vh;
+}
+.contact-form {
+  margin-top: 6%;
+}
+.apply-img {
+  max-width: 50%;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+}
+.form-img {
+  background-image: url(../images/color-bg.jpg);
+  background-position: center center;
+
+  margin: 0;
+}
+
+/*************************Mobile*******************************/
 @media (max-width: 1216px) {
   .price-vector {
     display: none;
@@ -2064,6 +2160,9 @@ footer {
   }
   .about-list-column {
     margin-top: 20%;
+  }
+  .apply-img {
+    display: none;
   }
 }
 @media (max-width: 769px) {
