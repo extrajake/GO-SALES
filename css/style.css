@@ -1674,9 +1674,19 @@ nav ul li a {
 /***********************ABOUT PAGE**********************/
 
 .about-hero {
-  height: 50vh;
-  margin-top: 20%;
+  height: 100vh;
   text-align: center;
+  background-image: url(../images/pink-blue-img.jpg);
+  background-position: 55% 50%;
+}
+.about-hero-title {
+  position: relative;
+  text-align: left;
+  padding: 2%;
+  margin-top: 10%;
+  margin-left: -12%;
+  background-color: transparent;
+  z-index: 5;
 }
 .about-hero-title h1 {
   font-family: "Work-sans", sans-serif;
@@ -1686,12 +1696,72 @@ nav ul li a {
   text-transform: uppercase;
   color: #333;
 }
+.about-hero-title-h3 {
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 2.5%;
+  width: 100%;
+  margin-left: 59%;
+  color: #fff;
+  background: #333;
+  z-index: 5;
+}
+
+.about-hero-img {
+  margin: -16% auto;
+  max-width: 100%;
+  z-index: 3;
+}
+
 .about-hero-arrow {
   position: absolute;
   height: 800px;
   margin-top: -20%;
   margin-left: 25%;
 }
+
+.our-team {
+  height: 150vh;
+  background-image: url(../images/green-img.jpg);
+  background-position: 20% 19.5%;
+}
+
+.group-hike {
+  max-width: 50%;
+  margin-top: -55%;
+}
+
+.our-team-h1 {
+  margin-top: 15%;
+  font-family: "Work Sans";
+  font-weight: bold;
+  width: 100%;
+  color: #333;
+  font-size: 8rem;
+}
+
+.our-team-h3 {
+  margin-top: 10%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 2.5%;
+  width: 100%;
+  color: #fff;
+  background-color: #333;
+  padding: 5%;
+}
+
+.team-bits {
+  margin-left: 13%;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.arrow-icon {
+  color: #e41767;
+}
+
 .partners-hero {
   margin-top: -10%;
   height: 50vh;
@@ -1808,7 +1878,7 @@ input[type="tel"] {
   border: 0;
 }
 .btn-sbmt {
-  float: left;
+  margin-left: 33%;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -2118,13 +2188,14 @@ input#file.inputfile.col-5 {
 /***********************APPLY*****************************/
 .form-logo {
   height: 300px;
-  margin-left: 23%;
+  margin-left: 25%;
 }
 .apply {
   /* background-image: url(../images/color-bg.jpg); */
   background-position: 50% 50%;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
+  background-color: #333333;
 }
 .contact-form {
   margin-top: 6%;
@@ -2134,6 +2205,10 @@ input#file.inputfile.col-5 {
   max-height: auto;
   margin: 0;
   padding: 0;
+  background-image: url(../images/apply-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 55% 50%;
 }
 .form-img {
   background-image: url(../images/color-bg.jpg);
