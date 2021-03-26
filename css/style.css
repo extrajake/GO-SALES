@@ -1714,6 +1714,13 @@ nav ul li a {
   z-index: 3;
 }
 
+.people-hike {
+  max-width: 50%;
+  margin-left: -10%;
+  margin-top: 3%;
+  z-index: 5;
+}
+
 .about-hero-arrow {
   position: absolute;
   height: 800px;
@@ -1761,6 +1768,34 @@ nav ul li a {
 .arrow-icon {
   color: #e41767;
 }
+
+.mission {
+  height: 100vh;
+}
+
+.mission h1 {
+  font-family: "Work Sans";
+  font-weight: bold;
+  width: 100%;
+  color: #333;
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-align: left;
+}
+.mission-h {
+  color: #333;
+}
+.mission-v {
+  margin-left: auto;
+}
+.mission-row {
+  margin-top: 25%;
+  flex-direction: column;
+}
+
+/* .mission-h {
+  margin-top: 25%;
+} */
 
 .partners-hero {
   margin-top: -10%;
@@ -2289,6 +2324,19 @@ input#file.inputfile.col-5 {
   }
   .service-details i {
     display: none;
+  }
+  .about-hero-title {
+    margin: 3% 0 0 0;
+    text-align: center;
+  }
+  .about-hero-container {
+    padding: 0;
+  }
+  .about-hero-img {
+    margin: 0;
+  }
+  .about-hero-title-h3 {
+    margin: 16% auto;
   }
 }
 
