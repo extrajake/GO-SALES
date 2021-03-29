@@ -298,6 +298,7 @@ nav ul li a,
   padding: 100px 0;
 }
 .get-started {
+  height: 100vh;
   padding: 100px 0 0 0;
 }
 .about {

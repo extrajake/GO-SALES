@@ -108,6 +108,7 @@ p,
   background-repeat: no-repeat;
   background-size: 100%;
   box-shadow: 0 0 45px rgba(196, 204, 245, 0.35);
+  height: 70vh;
 }
 .apply-box-opportunity {
   background-position: center center;
