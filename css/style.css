@@ -271,6 +271,15 @@ nav ul li a,
   width: 100%;
   position: relative;
 }
+.wrap {
+  float: left;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  position: relative;
+  overflow: visible;
+  /* background-image: url(../images/pink-blue-green.jpg); */
+}
 .overlay {
   position: fixed;
   top: 0;
@@ -298,14 +307,6 @@ nav ul li a,
 .testimonial {
   padding: 100px 0 50px 0;
   margin-top: -300px;
-}
-.hero-logo {
-  max-height: 85px;
-  margin-left: -7%;
-  max-width: 65%;
-
-  margin: auto;
-  margin-bottom: 5%;
 }
 
 .pricing {
@@ -531,34 +532,52 @@ a:hover {
   height: 1000px;
 }
 
+.hero-content {
+  background-color: rgb(51, 51, 51, 0.7);
+  padding: 0;
+  margin-top: 7%;
+  margin-left: 1%;
+  padding: 2%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.hero-logo {
+  margin: auto;
+  max-width: 100%;
+  margin-top: 5%;
+}
+
 .banner-text {
-  float: left;
   width: 100%;
-  padding-top: 200px;
-  padding-left: 50px;
+  padding: 5%;
 }
 .banner-text h3 {
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 7px;
+  margin-top: 5%;
+
   color: #fff;
 }
 .banner-text h2 {
-  margin-left: -18%;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 35px;
+
   color: #fff;
 }
-.banner-text p {
-  max-width: 73%;
-  float: left;
+.banner-text-p {
+  max-width: 100%;
   font-size: 18px;
   line-height: 24px;
-  margin-bottom: 70px;
+  padding-top: 25%;
+  padding-bottom: 10%;
   color: #fff;
 }
+.hero-logo-wrap {
+  margin-bottom: 5%;
+}
+
 .banner-text > a {
   font-size: 24px;
   font-weight: 700;
@@ -794,9 +813,10 @@ nav ul li a {
 
 .hike-img {
   width: auto;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
-  margin-left: 10%;
+  margin-left: 30%;
+  margin-top: 10%;
 }
 
 .mobile-visable {
@@ -2246,7 +2266,7 @@ input#file.inputfile.col-5 {
   background-position: 55% 50%;
 }
 .form-img {
-  background-image: url(../images/color-bg.jpg);
+  background-image: url(../images/pink-blue-green.jpg);
   background-position: center center;
 
   margin: 0;
@@ -2270,9 +2290,6 @@ input#file.inputfile.col-5 {
   }
   .about-list-column {
     margin-top: 20%;
-  }
-  .apply-img {
-    display: none;
   }
 }
 @media (max-width: 769px) {
@@ -2337,6 +2354,9 @@ input#file.inputfile.col-5 {
   }
   .about-hero-title-h3 {
     margin: 16% auto;
+  }
+  .apply-img {
+    display: none;
   }
 }
 
