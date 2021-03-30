@@ -222,12 +222,9 @@ p {
   font-size: 18px;
   line-height: 24px;
 }
-.logo-img {
+.logo img {
   max-height: 50px;
   max-width: 100%;
-  background-color: #333;
-  padding: 0 5%;
-  border-radius: 10px;
 }
 /* .logo-text {
   font-size: 2rem;
@@ -650,11 +647,6 @@ header.sticky {
 .logo {
   float: left;
   padding: 0;
-}
-.logo img {
-  background-color: #333;
-  padding: 0 5%;
-  border-radius: 10px;
 }
 .logo h1 {
   margin-top: 10px;
