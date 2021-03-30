@@ -225,6 +225,9 @@ p {
 .logo img {
   max-height: 50px;
   max-width: 100%;
+  background-color: rgba(51, 51, 51, 1);
+  border-radius: 10px;
+  padding: 0 10px;
 }
 /* .logo-text {
   font-size: 2rem;
@@ -2243,8 +2246,11 @@ input#file.inputfile.col-5 {
 
 /***********************APPLY*****************************/
 .form-logo {
-  height: 300px;
-  margin-left: 25%;
+  height: 250px;
+  background-color: #333;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .apply {
   /* background-image: url(../images/color-bg.jpg); */
