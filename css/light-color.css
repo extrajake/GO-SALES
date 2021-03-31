@@ -64,10 +64,7 @@ p,
 .feature-icon > span {
   background-color: #14a0c7;
 }
-.features:before {
-  background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 0 40px rgba(196, 204, 245, 0.35);
-}
+
 .bg3 {
   background-image: url(../images/bg3_2.png);
 }

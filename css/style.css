@@ -696,6 +696,59 @@ nav ul li a {
   background-position: 100% 50%;
 }
 
+.mutual-growth-img {
+  margin-left: 0%;
+  margin-top: -7%;
+}
+
+.feature-info {
+}
+
+.feature-info h2 {
+  text-align: left;
+  font-size: 66px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 6rem;
+  width: 150%;
+  margin-top: -10%;
+  color: #333;
+}
+.feature-info p {
+  text-align: left;
+  margin-top: 10%;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  width: 130%;
+}
+.fi-1 {
+  padding: 5%;
+  margin-left: -25%;
+}
+
+.bottom-half {
+  margin-top: 10%;
+}
+.fi-3 {
+  margin-top: 20%;
+}
+.fi-4 {
+  margin-top: 20%;
+}
+.fi-4 h2 {
+  margin-left: -5%;
+}
+.fi-4 p {
+  margin-left: -3%;
+}
+
+.fi-img-4 {
+  margin-top: -20%;
+  margin-left: 0%;
+}
+
 .evolve {
   color: white;
   top: 300px;
@@ -743,7 +796,7 @@ nav ul li a {
   width: 100%;
   position: relative;
 }
-.features-sec:before {
+/* .features-sec:before {
   content: "";
   position: absolute;
   top: -30%;
@@ -757,7 +810,7 @@ nav ul li a {
   height: 390px;
   background-image: url(../images/vector-shape.png);
   background-repeat: no-repeat;
-}
+} */
 .feature {
   float: left;
   width: 100%;
