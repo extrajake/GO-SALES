@@ -299,6 +299,16 @@ nav ul li a,
 }
 .features {
   padding: 100px 0;
+  background-image: url(../images/background-1.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.features h1,
+.features h2,
+.features h3,
+.features p {
+  color: #fff;
 }
 .get-started {
   height: 100vh;
@@ -310,22 +320,14 @@ nav ul li a,
 }
 .testimonial {
   padding: 100px 0 50px 0;
-  margin-top: -300px;
 }
 
 .pricing {
   padding: 260px 0 280px 0;
-}
-
-.price-head-1 {
-  margin-top: -35%;
-  line-height: 6rem;
-  /* background-image: url(../images/getmentoredblob.svg);
-  background-size: 1000px;
+  background-image: url(../images/background-1.jpg);
   background-position: 50% 50%;
-  background-repeat
-  line-height: 6rem; */
-  z-index: 3;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .price-vector {
   flex-direction: row;
@@ -338,22 +340,45 @@ nav ul li a,
   margin-top: -10%;
   z-index: 1;
 }
+
+.price-head-1 {
+  text-align: left;
+  line-height: 6rem;
+  margin-left: 41.5%;
+  padding: 20px;
+  color: #fff;
+  background-color: #fff;
+  border: 30px solid #14a0c7;
+  z-index: 2;
+}
+
 .price-head-2 {
-  margin-left: -15%;
-  margin-top: -10%;
   text-align: left !important;
   line-height: 6rem;
-  /* background-image: url(careers-hero.png); */
+  margin-left: 8.7%;
+  margin-top: -10%;
   background-color: #333;
 }
 
 .price-head-3 {
-  margin-left: 12%;
-  margin-top: -17%;
+  text-align: left !important;
   line-height: 6rem;
+  margin-top: -10%;
+  margin-left: 8.7%;
+  padding: 8% 2% !important;
+  background-color: #fff;
+  border: 20px solid #39b54a;
+}
+.price-head-3 p {
+  color: #333;
 }
 .price-head-1 li {
-  margin-left: 20%;
+}
+
+.go-for-growth-img {
+  margin-top: -10%;
+  margin-left: 25%;
+  max-width: 66.666%;
 }
 
 .gl2 {
@@ -549,6 +574,7 @@ a:hover {
 .hero-logo {
   margin: auto;
   max-width: 100%;
+  max-height: 90px;
   margin-top: 5%;
 }
 
@@ -641,8 +667,6 @@ header.sticky {
   width: 100%;
 }
 
-.pricing-plan {
-}
 .header-data {
   float: left;
   width: 100%;
@@ -1153,7 +1177,7 @@ nav ul li a {
   box-shadow: 0 0 30px rgba(2, 2, 2, 0.3);
   padding: 60px 10px 50px 10px;
 } */
-.price:hover .price-head {
+.price:hover {
   padding-top: 60px;
 }
 /* .price:hover > a {
@@ -1164,10 +1188,10 @@ nav ul li a {
 .price-head {
   float: left;
   width: 100%;
-  margin-bottom: 20px;
-  padding: 50px;
+  padding: 40px 40px;
   text-align: left;
 }
+
 .price-head:hover {
   /* background-color: #e41767;
   border-radius: 50px; */
@@ -1664,18 +1688,14 @@ nav ul li a {
 
 .careers-t-h-p {
   margin-top: 15%;
-  margin-left: 5%;
+  margin-left: 14%;
+  max-width: 38%;
   padding: 4%;
-
   color: #fff;
-  /* background-image: url(../images/careers-blob-3.svg); */
   background-color: rgba(51, 51, 51, 0.7);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 42%;
-  background-size: 150%;
   display: flex;
   flex-direction: column;
+  border-radius: 20px;
 }
 .careers-t-h-p .h1 .h2 .h3 .h4 .h5 .h6 .p {
   color: #fff;
@@ -1708,9 +1728,9 @@ nav ul li a {
   color: #333;
 }
 
-.careers-h {
-  /* background-image: url(../images/vector-shape.png);
-  background-position: 70% 50%; */
+.careers-h h3 {
+  color: #333;
+  font-weight: 600;
 }
 
 .careers-vector {
@@ -1721,7 +1741,7 @@ nav ul li a {
 
 .careers-run-img {
   margin-top: 10%;
-  background-size: contain;
+  height: auto;
   max-height: 1000px;
 }
 
@@ -1755,6 +1775,8 @@ nav ul li a {
   text-align: center;
   background-image: url(../images/pink-blue-img.jpg);
   background-position: 55% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .about-hero-title {
   position: relative;
@@ -1809,6 +1831,8 @@ nav ul li a {
   height: 150vh;
   background-image: url(../images/green-img.jpg);
   background-position: 20% 19.5%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .group-hike {
