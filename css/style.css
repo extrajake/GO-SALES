@@ -2408,6 +2408,16 @@ input#file.inputfile.col-5 {
   .tb {
     font-size: 3rem !important;
   }
+
+  .no-average-img,
+  .mutual-growth-img,
+  .fi-img-4 {
+    max-height: 500px;
+  }
+
+  .section-2 {
+    height: 750px;
+  }
   .abt-info h3 {
     font-size: 3rem !important;
   }
