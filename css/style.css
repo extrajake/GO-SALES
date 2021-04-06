@@ -119,6 +119,9 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+section {
+  overflow: hidden;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -379,6 +382,7 @@ nav ul li a,
   margin-top: -10%;
   margin-left: 25%;
   max-width: 66.666%;
+  max-height: 1200px;
 }
 
 .gl2 {
@@ -819,6 +823,15 @@ nav ul li a {
   float: left;
   width: 100%;
   position: relative;
+}
+.no-average-img,
+.mutual-growth-img,
+.fi-img-4 {
+  max-height: 800px;
+}
+
+.telus-building-img {
+  max-height: 1200px;
 }
 /* .features-sec:before {
   content: "";
@@ -2375,12 +2388,17 @@ input#file.inputfile.col-5 {
   .about-list-column {
     margin-top: 20%;
   }
+  .go-for-growth-img {
+    max-height: 800px;
+    margin: 0%;
+    width: 100%;
+    max-width: 100%;
+  }
 }
 @media (max-width: 769px) {
   .hero-conent {
     text-align: center;
   }
-
   .tb {
     font-size: 3rem !important;
   }
@@ -2392,6 +2410,13 @@ input#file.inputfile.col-5 {
   }
   .features-sec-row {
     margin-bottom: 10%;
+  }
+  .fi-1 {
+    margin: auto;
+  }
+  .feature-info h2,
+  .feature-info p {
+    width: 100%;
   }
   .mobile-visable img {
     display: block;
@@ -2414,6 +2439,11 @@ input#file.inputfile.col-5 {
     margin-bottom: 20px;
     /* padding: 50px; */
     text-align: left;
+  }
+  .price-head-1,
+  .price-head-2,
+  .price-head-3 {
+    margin-left: 0;
   }
   .stories-img {
     position: relative;
