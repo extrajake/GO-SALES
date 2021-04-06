@@ -2396,6 +2396,12 @@ input#file.inputfile.col-5 {
   }
 }
 @media (max-width: 769px) {
+  .main-section {
+    margin-top: 0;
+  }
+  .hero-content {
+    margin: 2%;
+  }
   .hero-conent {
     text-align: center;
   }
@@ -2408,16 +2414,30 @@ input#file.inputfile.col-5 {
   .about-list-column {
     margin-top: 10%;
   }
+  .features {
+    padding-bottom: 90px;
+  }
   .features-sec-row {
     margin-bottom: 10%;
   }
   .fi-1 {
     margin: auto;
   }
+  .fi-img-4 {
+    margin-top: 0;
+  }
   .feature-info h2,
   .feature-info p {
     width: 100%;
   }
+  .feature-info h2 {
+    line-height: 3rem;
+    margin-top: 0;
+  }
+  .mutual-growth-img {
+    margin-top: 5%;
+  }
+
   .mobile-visable img {
     display: block;
   }
@@ -2456,6 +2476,16 @@ input#file.inputfile.col-5 {
   .service-details i {
     display: none;
   }
+  .go-for-growth-img {
+    max-height: 500px;
+    margin: 0%;
+    width: 100%;
+    max-width: 100%;
+  }
+  .features {
+    padding-bottom: 90px;
+  }
+
   .about-hero-title {
     margin: 3% 0 0 0;
     text-align: center;
