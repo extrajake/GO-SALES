@@ -172,15 +172,9 @@ nav ul li a:hover,
   color: #3c3c44;
 }
 .section-2 {
-  height: 700px;
   /* background-image: url(../images/hike-bg7.png); */
   background-position: center center;
   background-repeat: no-repeat;
-}
-@media (max-width: 768px) {
-  .section-2 {
-    height: 750px;
-  }
 }
 
 .section-2-container {

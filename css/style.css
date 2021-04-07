@@ -1753,7 +1753,7 @@ nav ul li a {
 }
 
 .careers-run-img {
-  margin-top: 10%;
+  max-width: 50%;
   height: auto;
   max-height: 1000px;
 }
@@ -1763,7 +1763,7 @@ nav ul li a {
 }
 
 .in-it-for-you {
-  margin: 10% 0 10% 0;
+  margin: 0 0 10% 0;
   color: #333;
 }
 .in-it-for-you-row {
@@ -2394,6 +2394,10 @@ input#file.inputfile.col-5 {
     width: 100%;
     max-width: 100%;
   }
+  .careers-run-img {
+    max-width: 100%;
+    margin: auto;
+  }
 }
 @media (max-width: 769px) {
   .main-section {
@@ -2412,11 +2416,10 @@ input#file.inputfile.col-5 {
   .no-average-img,
   .mutual-growth-img,
   .fi-img-4 {
-    max-height: 500px;
+    max-height: 300px;
   }
 
   .section-2 {
-    height: 750px;
   }
   .abt-info h3 {
     font-size: 3rem !important;
@@ -2494,6 +2497,28 @@ input#file.inputfile.col-5 {
   }
   .features {
     padding-bottom: 90px;
+  }
+
+  .careers-t-h-p {
+    max-width: 100%;
+    margin: 30% 0 0 0;
+  }
+
+  .careers {
+    background-image: url(../images/careers-hero-3.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% 0%;
+    height: 100vh;
+  }
+
+  .careers-d {
+    line-height: 3rem;
+    margin: 5% 0 0 0;
+    text-align: center;
+  }
+
+  .careers-h {
+    margin: 0 5%;
   }
 
   .about-hero-title {
