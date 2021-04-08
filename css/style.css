@@ -2067,6 +2067,7 @@ input[type="tel"] {
 .btn-sbmt {
   margin-left: 33%;
   margin-top: 5%;
+  margin-bottom: 10%;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
