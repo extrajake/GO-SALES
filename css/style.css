@@ -280,10 +280,13 @@ nav ul li a,
 .wrap {
   float: left;
   width: 100%;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 20%;
   position: relative;
   overflow: visible;
+  background-image: url(../images/pink-blue-green.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
   /* background-image: url(../images/pink-blue-green.jpg); */
 }
 .overlay {
@@ -301,11 +304,6 @@ nav ul li a,
   max-height: 200px;
 }
 .features {
-  padding: 100px 0;
-  background-image: url(../images/background-1.jpg);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .features h1,
 .features h2,
@@ -469,9 +467,7 @@ nav ul li a,
 .remove-btm-gap {
   padding-bottom: 0 !important;
 }
-.features {
-  margin-bottom: -70px;
-}
+
 .features:before {
   content: "";
   position: absolute;
@@ -541,6 +537,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px;
+  z-index: 1;
 }
 .main-section-data {
   float: left;
@@ -636,6 +633,38 @@ a:hover {
   width: 100%;
 }
 
+/***********************SVG LINES************************/
+
+.line {
+  position: absolute;
+  z-index: 10;
+}
+.line-1 {
+  max-height: 650px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -75%;
+  margin-top: 40%;
+}
+.line-2 {
+  max-height: 300px;
+  margin-top: -15%;
+  margin-left: 45%;
+}
+.line-3 {
+  max-height: 300px;
+  margin-top: -18%;
+  margin-left: -18%;
+}
+
+.line-4 {
+  max-height: 800px;
+  margin-top: -30%;
+  margin-left: 50%;
+  z-index: 10;
+}
+
 /* ================== Header ================= */
 
 header {
@@ -718,10 +747,11 @@ nav ul li a {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
-  background-image: url(../images/arrow.png);
-  background-size: 300px;
+  background-image: url(../images/arrow-grey-soft.jpg);
+  background-size: 450px;
   background-repeat: no-repeat;
   background-position: 100% 50%;
+  z-index: 10;
 }
 
 .mutual-growth-img {
@@ -816,7 +846,12 @@ nav ul li a {
 
 /* ================ features-sec ============== */
 .features {
-  margin: 0 0 5% 0;
+  margin: 0 0;
+  padding: 100px 0;
+  background-image: url(../images/background-1.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .features-sec {
@@ -892,6 +927,9 @@ nav ul li a {
 }
 
 /*********************GO CHALLENGE YOURSELF*************************/
+.section-2 {
+}
+
 .section-3-container {
   display: flex;
   flex-direction: row;
