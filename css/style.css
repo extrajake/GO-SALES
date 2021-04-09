@@ -2441,8 +2441,12 @@ input#file.inputfile.col-5 {
   background-image: url(../images/pink-blue-green.jpg);
   background-position: 35% 50%;
   margin: 0;
+  margin-bottom: 10%;
   padding-bottom: 5%;
   padding-top: 5%;
+}
+.form-button {
+  margin-bottom: 10%;
 }
 
 .label {
