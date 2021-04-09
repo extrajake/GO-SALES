@@ -280,13 +280,15 @@ nav ul li a,
 .wrap {
   float: left;
   width: 100%;
-  padding-top: 5%;
+
   padding-bottom: 20%;
+  padding-top: 5%;
   position: relative;
   overflow: visible;
   background-image: url(../images/pink-blue-green.jpg);
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
   /* background-image: url(../images/pink-blue-green.jpg); */
 }
 .overlay {
@@ -2376,11 +2378,11 @@ input#file.inputfile.col-5 {
 
 /***********************APPLY*****************************/
 .form-logo {
-  height: 250px;
-  background-color: #333;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  height: 150px;
+  border-right: 2px solid white;
+  padding: 5%;
+  padding-right: 10%;
+  margin-right: 5%;
 }
 .apply {
   /* background-image: url(../images/color-bg.jpg); */
@@ -2389,6 +2391,39 @@ input#file.inputfile.col-5 {
   height: 100vh;
   background-color: #333333;
 }
+.apply-title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.g-h1-h3 {
+  flex-direction: column;
+  max-width: 40%;
+  text-align: center;
+}
+.a-t-img-row {
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.apply-title-box {
+  color: #fff;
+  font-weight: 700;
+  max-width: 40%;
+  margin-bottom: 5%;
+  padding: 3% 0;
+  max-width: 60%;
+  background-color: #333;
+  border-radius: 20px;
+}
+.apply-title-box h1 {
+  font-size: 2rem;
+}
+
 .contact-form {
   margin-top: 6%;
 }
@@ -2404,9 +2439,10 @@ input#file.inputfile.col-5 {
 }
 .form-img {
   background-image: url(../images/pink-blue-green.jpg);
-  background-position: center center;
-
+  background-position: 35% 50%;
   margin: 0;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 .label {
@@ -2451,6 +2487,15 @@ input#file.inputfile.col-5 {
   .careers-run-img {
     max-width: 100%;
     margin: auto;
+  }
+  .form-logo {
+    border: none;
+    margin: 0;
+    padding: 20px 0 20px 0;
+  }
+  .g-h1-h3 {
+    max-width: 75%;
+    padding-bottom: 5%;
   }
 }
 @media (max-width: 769px) {
@@ -2532,6 +2577,10 @@ input#file.inputfile.col-5 {
   .price-head-3 {
     margin-left: 0;
   }
+  .pricing {
+    margin-bottom: 90%;
+  }
+
   .stories-img {
     position: relative;
     max-width: 100%;
@@ -2594,6 +2643,9 @@ input#file.inputfile.col-5 {
   .btn-sbmt {
     margin-left: 20%;
     margin-top: 5%;
+  }
+  .apply-title-box {
+    flex-direction: column;
   }
 }
 
