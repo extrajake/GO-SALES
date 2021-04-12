@@ -836,6 +836,21 @@ nav ul li a {
   margin-right: 8%;
   background-image: url(../images/vector-shape.png);
 }
+
+.go-evolve {
+  flex-direction: row;
+  align-items: center;
+}
+
+.evolve-go {
+  max-height: 180px;
+  max-width: 180px;
+}
+.evolve h3 {
+  margin-top: 0;
+  margin-left: 20px;
+}
+
 .t-evolve {
   margin-left: -10%;
 }
@@ -1575,6 +1590,11 @@ nav ul li a {
   flex-direction: row;
   align-items: center;
 }
+.i-learn {
+  max-height: 180px;
+  max-width: 180px;
+}
+
 .go-learn h3 {
   margin-top: -1%;
 }
@@ -1858,6 +1878,9 @@ nav ul li a {
 }
 .wh {
   color: #fff !important;
+}
+.td {
+  color: #333333;
 }
 
 /***********************ABOUT PAGE**********************/
