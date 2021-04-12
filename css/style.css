@@ -333,6 +333,7 @@ nav ul li a,
   background-size: cover;
 }
 .price-vector {
+  position: absolute;
   flex-direction: row;
 }
 
@@ -344,9 +345,19 @@ nav ul li a,
   z-index: 1;
 }
 
+.price-li {
+  display: flex;
+  flex-direction: column;
+}
+
+.growth-h4 {
+  margin-top: -8%;
+}
+
 .price-head-1 {
   text-align: left;
   line-height: 6rem;
+
   margin-left: 41.5%;
   padding: 20px;
   color: #fff;
@@ -391,7 +402,7 @@ nav ul li a,
   flex-direction: column;
   margin-left: 3.5%;
   margin-top: -10%;
-  margin-bottom: 10%;
+
   text-align: left;
 }
 
@@ -1943,11 +1954,12 @@ nav ul li a {
 }
 
 .our-team {
-  height: 150vh;
+  height: auto;
   background-image: url(../images/green-img.jpg);
   background-position: 20% 19.5%;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 10%;
 }
 
 .group-hike {
@@ -1986,7 +1998,11 @@ nav ul li a {
 }
 
 .mission {
-  height: 100vh;
+  height: auto;
+  background-image: url(../images/green-blue.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mission h1 {
@@ -1999,13 +2015,20 @@ nav ul li a {
   text-align: left;
 }
 .mission-h {
-  color: #333;
-}
-.mission-v {
   margin-left: auto;
+  color: #fff;
+  text-align: center;
+}
+.mission-h h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.mission-v {
+  margin: auto;
 }
 .mission-row {
-  margin-top: 25%;
+  margin: 5% 0;
   flex-direction: column;
 }
 
@@ -2563,6 +2586,10 @@ input#file.inputfile.col-5 {
     max-width: 75%;
     padding-bottom: 5%;
   }
+  .mission-h,
+  .mission h1 {
+    color: #333;
+  }
 }
 @media (max-width: 769px) {
   .main-section {
@@ -2713,7 +2740,7 @@ input#file.inputfile.col-5 {
     margin: 0;
   }
   .about-hero-title-h3 {
-    margin: 16% auto;
+    margin: 10% 5%;
   }
   .apply-img {
     display: none;
@@ -2725,6 +2752,42 @@ input#file.inputfile.col-5 {
   .apply-title-box {
     flex-direction: column;
     max-width: 80%;
+  }
+  .team-bits {
+    margin-left: 0;
+  }
+  .team p {
+    color: white;
+  }
+  .team i {
+    display: none;
+    margin: 10%;
+  }
+  .our-team-h1 {
+    text-align: center;
+  }
+  .our-team {
+    display: flex;
+    flex-direction: column;
+  }
+  .group-hike {
+    margin: 15% auto;
+    max-width: 90%;
+  }
+  .people-hike {
+    margin: 5% auto;
+    max-width: 90%;
+  }
+  .mission {
+    padding: 10% 0;
+  }
+  .mission-h {
+    margin: 0;
+    color: #333;
+  }
+  .mission-h h1 {
+    color: #333;
+    font-size: 3rem;
   }
 }
 
