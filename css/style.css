@@ -749,7 +749,7 @@ nav ul li a {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
-  background-image: url(../images/arrow-grey-soft.jpg);
+
   background-size: 450px;
   background-repeat: no-repeat;
   background-position: 100% 50%;
@@ -964,6 +964,15 @@ nav ul li a {
 .about-sec {
   width: 100%;
 }
+
+.abt-go {
+  display: flex;
+  flex-direction: column;
+}
+.about-go {
+  max-height: 110px;
+  max-width: 110px;
+}
 .about-img {
   width: 100%;
 }
@@ -974,7 +983,8 @@ nav ul li a {
   float: left;
   width: 100%;
   padding-left: 70px;
-  padding-top: 90px;
+  padding-top: 150px;
+  padding-bottom: 50px;
 }
 .about-info {
   float: left;
@@ -1542,6 +1552,18 @@ nav ul li a {
 
 .learn-card {
   text-align: center;
+}
+.go-learn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.go-learn h3 {
+  margin-top: -1%;
+}
+.learn-go {
+  max-height: 200px;
+  max-width: 200px;
 }
 
 /* ============= blog-posts =========== */
@@ -2434,8 +2456,8 @@ input#file.inputfile.col-5 {
   padding: 0;
   background-image: url(../images/apply-3.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 55% 50%;
+  background-size: 160%;
+  background-position: 55% 0;
 }
 .form-img {
   background-image: url(../images/pink-blue-green.jpg);
@@ -2516,6 +2538,14 @@ input#file.inputfile.col-5 {
     font-size: 3rem !important;
   }
 
+  .line-1 {
+    display: none;
+  }
+
+  .price-head li {
+    line-height: 3rem;
+  }
+
   .no-average-img,
   .mutual-growth-img,
   .fi-img-4 {
@@ -2524,6 +2554,7 @@ input#file.inputfile.col-5 {
 
   .section-2 {
   }
+
   .abt-info h3 {
     font-size: 3rem !important;
   }
@@ -2569,6 +2600,9 @@ input#file.inputfile.col-5 {
     text-align: center;
   }
 
+  .service-main-info {
+    max-width: 90%;
+  }
   .price-head {
     float: left;
     width: 100%;
