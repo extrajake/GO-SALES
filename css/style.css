@@ -744,15 +744,32 @@ nav ul li a {
 
 .experience {
   color: white;
+  flex-direction: row;
+  align-items: flex-start;
   text-align: left;
   font-size: 66px;
   font-weight: 700;
+  line-height: 6rem;
   text-transform: uppercase;
+  margin-left: -11%;
   margin-bottom: 35px;
-
   background-size: 450px;
   background-repeat: no-repeat;
   background-position: 100% 50%;
+  z-index: 10;
+}
+
+.i-route {
+  max-height: 80px;
+  margin-top: 10px;
+  margin-right: 2%;
+}
+
+.i-map {
+  max-height: 100px;
+  max-width: 100px;
+  margin-top: -58%;
+  margin-left: 90%;
   z-index: 10;
 }
 
