@@ -314,8 +314,8 @@ nav ul li a,
   color: #fff;
 }
 .get-started {
-  height: 100vh;
-  padding: 100px 0 0 0;
+  height: auto;
+  padding: 0;
 }
 .about {
   padding: 270px 0 200px 0;
@@ -672,9 +672,9 @@ a:hover {
 }
 
 .line-4 {
-  max-height: 800px;
-  margin-top: -30%;
-  margin-left: 50%;
+  max-height: 700px;
+  margin-top: -25%;
+  margin-left: 40%;
   z-index: 10;
 }
 
@@ -769,7 +769,6 @@ nav ul li a {
   background-position: 100% 50%;
   z-index: 10;
 }
-
 .i-route {
   max-height: 80px;
   margin-top: 10px;
@@ -1120,6 +1119,7 @@ nav ul li a {
 .services-sec {
   float: left;
   width: 100%;
+  margin-bottom: 5%;
 }
 .services-list {
   float: left;
@@ -2605,7 +2605,18 @@ input#file.inputfile.col-5 {
     font-size: 3rem !important;
   }
 
-  .line-1 {
+  .experience {
+    justify-content: center;
+    align-items: center;
+    line-height: 3rem;
+  }
+  .experience-section {
+    margin-left: 10%;
+  }
+
+  .line-1,
+  .line-2,
+  .line-3 {
     display: none;
   }
 
@@ -2639,17 +2650,25 @@ input#file.inputfile.col-5 {
   }
   .fi-img-4 {
     margin-top: 0;
+    max-height: 500px;
   }
-  .feature-info h2,
+  .no-average-img {
+    max-height: 500px;
+  }
+
   .feature-info p {
     width: 100%;
+    margin-left: auto;
   }
   .feature-info h2 {
     line-height: 3rem;
     margin-top: 0;
+    margin-left: auto;
+    width: 100%;
   }
   .mutual-growth-img {
     margin-top: 5%;
+    max-height: 500px;
   }
 
   .mobile-visable img {
@@ -2788,6 +2807,9 @@ input#file.inputfile.col-5 {
   .mission-h h1 {
     color: #333;
     font-size: 3rem;
+  }
+  .line-4 {
+    max-height: 400px;
   }
 }
 
