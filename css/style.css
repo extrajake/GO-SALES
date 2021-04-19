@@ -2523,7 +2523,7 @@ input#file.inputfile.col-5 {
   background-position: 55% 0;
 }
 .form-img {
-  background-image: url(../images/pink-blue-green.jpg);
+  background-image: url(../images/pink-green-blue-2.jpg);
   background-position: 35% 50%;
   margin: 0;
   margin-bottom: 10%;
@@ -2703,6 +2703,7 @@ input#file.inputfile.col-5 {
   }
   .pricing {
     margin-bottom: 90%;
+    overflow: hidden;
   }
 
   .stories-img {
@@ -2724,6 +2725,17 @@ input#file.inputfile.col-5 {
   }
   .features {
     padding-bottom: 90px;
+  }
+
+  .learn-go {
+    display: none;
+  }
+  .learn-row {
+    max-width: 100%;
+  }
+  .gl2 {
+    max-width: 100%;
+    padding-left: 70px;
   }
 
   .careers-t-h-p {
