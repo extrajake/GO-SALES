@@ -672,10 +672,13 @@ a:hover {
 }
 
 .line-4 {
-  max-height: 700px;
+  max-height: 800px;
   margin-top: -25%;
   margin-left: 40%;
   z-index: 10;
+}
+.cross {
+  max-height: 150px;
 }
 
 /* ================== Header ================= */
@@ -731,6 +734,7 @@ header.sticky {
 nav {
   float: right;
   padding-top: 13px;
+  margin-right: 10%;
 }
 nav ul li {
   display: inline-block;
@@ -2065,6 +2069,25 @@ nav ul li a {
   line-height: 7rem;
   text-transform: uppercase;
   color: #333;
+}
+.partner {
+  height: auto;
+}
+.partner-row {
+  margin: 10%;
+}
+
+.partner-row h1,
+.partner-row h3 {
+  text-align: center;
+}
+.partner-h3 {
+  margin: auto;
+}
+.partner-s-img {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ================== FOOTER =============== */
