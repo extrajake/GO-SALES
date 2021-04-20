@@ -276,11 +276,11 @@ nav ul li a,
   float: left;
   width: 100%;
   position: relative;
+  overflow-x: hidden;
 }
 .wrap {
   float: left;
   width: 100%;
-
   padding-bottom: 20%;
   padding-top: 5%;
   position: relative;
@@ -289,6 +289,7 @@ nav ul li a,
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 0;
   /* background-image: url(../images/pink-blue-green.jpg); */
 }
 .overlay {
@@ -1621,6 +1622,9 @@ nav ul li a {
   max-height: 200px;
   max-width: 200px;
 }
+.learn-go-sm {
+  display: none;
+}
 
 /* ============= blog-posts =========== */
 
@@ -2612,7 +2616,6 @@ input#file.inputfile.col-5 {
   .mobile-visable {
     display: block;
     max-width: 100%;
-    margin-top: 10%;
   }
   .hike-img {
     display: none;
@@ -2620,6 +2623,39 @@ input#file.inputfile.col-5 {
   .about-list-column {
     margin-top: 20%;
   }
+  .wrap {
+    display: none;
+  }
+  .bg3 {
+    background: none;
+  }
+  .gl2 {
+    margin-top: -10%;
+  }
+  .evolve {
+    background: none;
+    margin-right: 0;
+    padding: 5%;
+  }
+  .evolve h3 {
+    margin: 10px 0;
+  }
+  .evolve-row {
+    justify-content: center;
+  }
+  .cross {
+    display: none;
+  }
+  .go-evolve {
+    flex-direction: column;
+  }
+  .learn-go-sm {
+    display: block;
+    max-height: 150px;
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+
   .go-for-growth-img {
     max-height: 800px;
     margin: 0%;
@@ -2660,6 +2696,7 @@ input#file.inputfile.col-5 {
   }
   .learn-go {
     margin-bottom: 20px;
+    display: none;
   }
   .go-fav {
     max-height: 150px;
@@ -2705,7 +2742,9 @@ input#file.inputfile.col-5 {
     max-height: 300px;
   }
 
-  .section-2 {
+  .about {
+    margin-top: -50%;
+    margin-bottom: 10%;
   }
 
   .abt-info h3 {
@@ -2808,12 +2847,20 @@ input#file.inputfile.col-5 {
   .learn-go {
     display: none;
   }
+  .go-learn {
+    flex-direction: column;
+  }
   .learn-row {
     max-width: 100%;
+    justify-content: center;
   }
   .gl2 {
     max-width: 100%;
-    padding-left: 70px;
+    margin: 10% 5%;
+    text-align: center;
+  }
+  div.row.learn-row {
+    margin: 0 0;
   }
 
   .careers-t-h-p {
