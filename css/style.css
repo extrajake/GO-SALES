@@ -372,6 +372,7 @@ nav ul li a,
   margin-left: 8.7%;
   margin-top: -10%;
   background-color: #333;
+  border: 30px solid #333;
 }
 
 .price-head-3 {
@@ -385,6 +386,9 @@ nav ul li a,
 }
 .price-head-3 p {
   color: #333;
+}
+.head-3 {
+  flex-direction: column;
 }
 .price-head-1 li {
 }
@@ -2592,6 +2596,12 @@ input#file.inputfile.col-5 {
 }
 
 /*************************Mobile*******************************/
+@media (max-width: 1675px) {
+  .tb {
+    font-size: 5rem !important;
+  }
+}
+
 @media (max-width: 1216px) {
   .price-vector {
     display: none;
@@ -2632,6 +2642,28 @@ input#file.inputfile.col-5 {
   .mission-h,
   .mission h1 {
     color: #333;
+  }
+  .price-head-1 {
+    margin-left: 0;
+  }
+  .price-head-2 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .price-head-3 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .head-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .learn-go {
+    margin-bottom: 20px;
+  }
+  .go-fav {
+    max-height: 150px;
+    max-width: 150px;
   }
 }
 @media (max-width: 769px) {
@@ -2721,6 +2753,9 @@ input#file.inputfile.col-5 {
     font-size: 5rem;
     line-height: 4rem;
     margin-left: 0;
+  }
+  .go-evolve {
+    flex-direction: column;
   }
   .t-evolve {
     text-align: center;
@@ -2877,6 +2912,10 @@ input#file.inputfile.col-5 {
   }
   .partner {
     margin-bottom: 10%;
+  }
+  .go-fav {
+    max-height: 130px;
+    max-width: 130px;
   }
 }
 
