@@ -124,7 +124,7 @@ p,
   padding: 180px 0;
 }
 .footer-bg {
-  background-image: url(../images/footer-bg.png);
+  /* background-image: url(../images/footer-bg.png); */
 }
 .contact-form form input,
 .contact-form form textarea {
