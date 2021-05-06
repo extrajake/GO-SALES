@@ -2673,7 +2673,6 @@ input#file.inputfile.col-5 {
   }
   .g-h1-h3 {
     max-width: 75%;
-    padding-bottom: 5%;
   }
   .mission-h,
   .mission h1 {
@@ -2701,6 +2700,9 @@ input#file.inputfile.col-5 {
   .go-fav {
     max-height: 150px;
     max-width: 150px;
+  }
+  .apply-title-box {
+    background: transparent;
   }
 }
 @media (max-width: 769px) {
