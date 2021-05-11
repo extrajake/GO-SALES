@@ -2203,7 +2203,6 @@ input[type="tel"] {
   border: 0;
 }
 .btn-sbmt {
-  margin-left: 33%;
   margin-top: 5%;
   margin-bottom: 10%;
   font-size: 18px;
@@ -2274,20 +2273,26 @@ input#file.inputfile.col-5 {
 .resume-tag {
 }
 .upload-tag {
-  margin-left: 100%;
-  width: 100%;
   color: #fff;
 }
 .cover-letter {
-  margin-left: 46%;
   color: #fff;
+}
+.tag-row {
+  flex-direction: row;
 }
 
 .resume {
-  flex-direction: row;
-  max-width: 91%;
-  margin: 0 auto;
 }
+
+.enter-btn {
+  display: flex;
+  flex-direction: column;
+}
+.enter-btn-1 {
+  margin-left: 25%;
+}
+
 .column {
   width: 100%;
   display: flex;
@@ -2584,6 +2589,8 @@ input#file.inputfile.col-5 {
 }
 .form-button {
   margin-bottom: 10%;
+  align-items: center;
+  justify-content: center;
 }
 
 .label {
@@ -2705,6 +2712,12 @@ input#file.inputfile.col-5 {
   .apply-title-box {
     background: transparent;
     flex-direction: column;
+  }
+  .enter-btn {
+    max-width: 33%;
+  }
+  .enter-btn-1 {
+    margin-left: 17%;
   }
 }
 @media (max-width: 769px) {
@@ -2905,9 +2918,8 @@ input#file.inputfile.col-5 {
   .apply-img {
     display: none;
   }
-  .btn-sbmt {
-    margin-left: 20%;
-    margin-top: 5%;
+  .btn-sbmt-1 {
+    margin-left: 0 !important;
   }
   .apply-title-box {
     flex-direction: column;
