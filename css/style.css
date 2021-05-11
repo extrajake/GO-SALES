@@ -2519,6 +2519,7 @@ input#file.inputfile.col-5 {
   padding: 5%;
   padding-right: 10%;
   margin-right: 5%;
+  max-width: 44%;
 }
 .apply {
   /* background-image: url(../images/color-bg.jpg); */
@@ -2703,6 +2704,7 @@ input#file.inputfile.col-5 {
   }
   .apply-title-box {
     background: transparent;
+    flex-direction: column;
   }
 }
 @media (max-width: 769px) {
