@@ -2190,7 +2190,8 @@ input[type="tel"] {
   padding: 30px;
 }
 .contact-form form input,
-.contact-form form textarea {
+.contact-form form textarea,
+.form-control {
   width: 100%;
   font-size: 16px;
   font-weight: 400;
