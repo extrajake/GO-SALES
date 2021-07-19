@@ -315,7 +315,7 @@ nav ul li a,
   color: #fff;
 }
 .get-started {
-  height: auto;
+  height: 100vh;
   padding: 0;
 }
 .about {
@@ -1725,7 +1725,7 @@ nav ul li a {
   -ms-border-radius: 40px;
   -o-border-radius: 40px; */
   /* border-radius: 40px; */
-  padding: 180px 0;
+  padding: 35% 10%;
 }
 
 .wait-sec h3 {

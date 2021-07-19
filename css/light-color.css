@@ -99,13 +99,17 @@ p,
   background-size: 100%;
   box-shadow: 0 0 45px rgba(196, 204, 245, 0.35);
 }
+
+.apply-side {
+  padding: 0;
+}
 .apply-box {
   background-image: url(../images/pink-green-blue-2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   box-shadow: 0 0 45px rgba(196, 204, 245, 0.35);
-  height: 70vh;
+  height: 100%;
 }
 .apply-box-opportunity {
   background-position: center center;
