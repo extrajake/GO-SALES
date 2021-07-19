@@ -2531,7 +2531,7 @@ input#file.inputfile.col-5 {
   /* background-image: url(../images/color-bg.jpg); */
   background-position: 50% 50%;
   background-size: cover;
-  height: 110vh;
+  height: auto;
   background-color: #333333;
 }
 .apply-title-box {
@@ -2584,7 +2584,7 @@ input#file.inputfile.col-5 {
   background-image: url(../images/pink-green-blue-2.jpg);
   background-position: 35% 50%;
   margin: 0;
-  margin-bottom: 10%;
+  margin-bottom: -6%;
   padding-bottom: 5%;
   padding-top: 5%;
 }
