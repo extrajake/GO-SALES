@@ -2202,6 +2202,7 @@ input[type="tel"] {
   border-radius: 15px;
   margin-bottom: 30px;
   border: 0;
+  padding: 5%;
 }
 .btn-sbmt {
   margin-top: 5%;
