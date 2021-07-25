@@ -2175,6 +2175,9 @@ footer {
 .contact-form {
   float: left;
   width: 100%;
+  background-image: url(../images/background-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .contact-form form {
   float: left;
